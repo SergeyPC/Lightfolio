@@ -297,6 +297,13 @@ footer li {
 .ui-icon-triangle-1-e, .ui-icon-triangle-1-s {
     background-position: 0;
 }
+
+.about_me .ui-accordion .ui-accordion-header.ui-state-hover .ui-icon{
+    background-image: url(../images/chevron-down.png);
+}
+
+
+
 /*
 .ui-icon {
     text-indent: 0;
