@@ -43,7 +43,7 @@ header nav ul {
     justify-content: end;
     list-style: none;
 }
-.div_header {
+.div_header, .wrapper {
     max-width: 1248px;
     margin: auto;
 }
@@ -245,3 +245,63 @@ footer li {
     padding-bottom: 65px;
     margin-bottom: 64px;
 }
+
+.about_me {
+    padding: 132px 0;
+}
+
+.about_me .ui-accordion .ui-accordion-header {
+    background-color: transparent;
+    padding: 15px 10px;
+    border: solid black 1px;
+    border-radius: 18px;
+    color: black;
+}
+
+.ui-accordion .ui-accordion-content {
+    background-color: #FFEBD8;
+    border: solid black 1px;
+    border-radius: 0 0 18px 18px;
+    border-top: none;
+}
+
+.about_me .ui-accordion .ui-accordion-header.ui-state-active {
+    background-color: #FFEBD8;
+    border-bottom: none;
+    border-radius: 18px 18px 0 0;
+}
+
+.ui-icon, .ui-widget-content .ui-icon {
+    background-image: none;
+    text-indent: 0;
+}
+
+.ui-icon-triangle-1-e, .ui-state-active .ui-icon, .ui-button:active .ui-icon {
+    content: "";
+    display: block!important;
+    position: absolute;
+    top: 50%;
+    margin-top: -16px;
+    right: 44px;
+    height: 32px;
+    width: 32px;
+    color: #000;
+    transform: rotate(0);
+    transition: transform .2s;
+    background-image: url(../images/chevron-down.png);
+}
+.ui-state-active .ui-icon, .ui-button:active .ui-icon {
+    transform: rotate(-180deg);
+}
+
+.ui-icon-triangle-1-e, .ui-icon-triangle-1-s {
+    background-position: 0;
+}
+/*
+.ui-icon {
+    text-indent: 0;
+}*/
+
+/*
+
+ */
